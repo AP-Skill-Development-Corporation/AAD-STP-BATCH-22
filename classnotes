@@ -1,0 +1,79 @@
+# 10-6-2020
+
+
+Good Evening to all
+------------------
+Day-2
+-------------------
+Day-Objectives:
+--------------------
+1.Project Structure
+
+2.How to Enable Developer Options In out Mobile
+
+3.View And View Group
+
+4.Android App Components.
+
+5.How to run an HelloWorld Programm in our Mobile
+
+java file
+
+android-java file-activity file
+
+android-xml-layout file
+
+R.java
+
+
+setcontentview(R.layout.activity_main)
+
+Mainfest:
+
+it can be give the permissions
+
+example:INTETNET,LOCATION,INTERNAL_STORAGE
+
+<uses-permission android:name="android.permission.INTERNET"/>
+
+APPLICATION STRUCTURE:
+----------------------
+ANDROID-XML+JAVA
+
+<Mainfest>
+
+<give permissions>
+
+<APPLICATION
+name
+icon
+>
+<Activity>
+<Intent_Filter>
+<java file>+<xml file>
+</Intent_Filter>
+</Activity>
+</APPLICATION>
+
+</Mainfest>
+
+xml-screen design
+
+Activity-implement the onclick events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
