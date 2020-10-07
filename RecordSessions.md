@@ -2,4 +2,4 @@
 
 # Day2 Video Link:https://transcripts.gotomeeting.com/#/s/ef13dfc689f8bdc1abec866e7ee0929190c85c71d639b642c49d36f873da708d
 
-
+# Day3 Video Link:https://transcripts.gotomeeting.com/#/s/ef13dfc689f8bdc1abec866e7ee0929190c85c71d639b642c49d36f873da708d
