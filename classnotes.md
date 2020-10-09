@@ -59,6 +59,103 @@ xml-screen design
 
 Activity-implement the onclick events
 
+10-9-2020 class notes
+
+
+onclick listeners:
+------------------
+
+1.by using xml file
+
+2.by using java file
+
+1.by using xml file
+
+<Li
+w
+h
+o>
+<Button
+android:onclick="toastname"--alr+enter
+w
+h
+/>
+<Textview/>
+<Button
+android:"@+id/count"
+
+/>
+</Li>
+
+How to create the method:
+--------------------------
+
+public void methodname(View view)
+{
+
+}
+
+example:
+---------
+public void toastname(View view)
+{
+
+}
+
+Steps to Implements Method Declaration in MainActivity:
+----------------------------------------------
+1.global declaration variable for particular view
+
+Button co;
+
+2.we have to get the id for oncreate() method
+with the help of findviewbyId()
+
+co=findviewbyId(R.id.count);
+
+co.setOnclicklistener(new Onclicklistener)
+
+{
+
+   public void onclick(View view)
+   {
+   
+   }
+
+}
+
+How to declare the toast message in or android:
+----------------------------------------
+
+Toast is a one of the class
+
+we have to write an toast with the
+
+help Toast
+
+
+Syntax for Toast Class:
+------------------------
+
+Toast.maketext(context,string,duration).show();
+
+Example:
+--------
+activity_main.xml
+
+MainActivity
+
+Toast.maketext(this
+                MainActivity.this,
+				getapplicationContext,
+				"VAMANAPALLI GOPAL",
+				Toast.LENGTH_LONG
+				Toast.LENGTH_SHORT).show();
+
+
+
+
+
 
 
 
