@@ -4,5 +4,6 @@
 
 # Day3 Video Link:https://transcripts.gotomeeting.com/#/s/34d5f0a74e48bc5d35ea05e6336d7aa84c92619e4bdd6005f6a7ea84b6d58973
 
+# Day4 Video Link:https://transcripts.gotomeeting.com/#/s/b92dd75ea9c623b9b1408ba9d6bd7deb45f3677e4f0faf5b0f5e419b79990f13
 
-# Day4 Video Link://https://transcripts.gotomeeting.com/#/s/b92dd75ea9c623b9b1408ba9d6bd7deb45f3677e4f0faf5b0f5e419b79990f13
+# Day5 Video Link:https://transcripts.gotomeeting.com/#/s/c176c31f42f23ad5807190867f5b3767b85366d31ad50210e0ea4480d34aa6ed
