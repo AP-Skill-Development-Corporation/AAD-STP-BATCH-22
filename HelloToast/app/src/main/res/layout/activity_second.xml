@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DBDDC8"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:background="@drawable/layout_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Resume Data Here.."
+                    android:textStyle="bold"
+                    android:textColor="#E91E63"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/editTextFileName"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:hint="Enter Your Pdf Name Of Person"
+                    android:textSize="14sp"
+                    android:textColorHint="#2196F3"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/college"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="14sp"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Your College Name"
+                    android:textColorHint="#2196F3"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/dist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="14sp"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Your Distict Name"
+                    android:textColorHint="#2196F3"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="14sp"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Your Phone Number"
+                    android:textColorHint="#2196F3"
+                    android:inputType="phone"/>
+                <EditText
+                    android:id="@+id/emailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="14sp"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Your Email-Id"
+                    android:textColorHint="#2196F3"
+                    android:inputType="textEmailAddress"/>
+                <EditText
+                    android:id="@+id/exp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="14sp"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Your Experience"
+                    android:textColorHint="#2196F3"
+                    android:inputType="phone"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/buttonUploadFile"
+                    android:text="Choose PDF"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/button_background"
+                    android:src="@drawable/right"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone" />
+
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pdf"
+                    android:layout_marginTop="60dp"/>
+                <TextView
+                    android:id="@+id/textViewStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No file selected"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
