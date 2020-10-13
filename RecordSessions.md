@@ -8,4 +8,5 @@
 
 # Day5 Video Link:https://transcripts.gotomeeting.com/#/s/c176c31f42f23ad5807190867f5b3767b85366d31ad50210e0ea4480d34aa6ed
 
-# Day6 Video Link :https://transcripts.gotomeeting.com/#/s/0b2895e0400feb4885d93f13ba7b94699f65321b0fff0cc9fd77def025362e79
+# Day6 Video Link :https://transcripts.gotomeeting.com/#/s/0b2895e0400feb4885d93f13ba7b94699f65321b0fff0cc9fd77def025362e7
+# Day7 Video Link :https://transcripts.gotomeeting.com/#/s/44381a168de32da9cf808a2e433249d088751289b6844154cbf4b2fe3ba1826c
