@@ -154,6 +154,121 @@ Toast.maketext(this
 
 
 
+# Day 8 OptionsMenu
+
+Good Evening to all
+-------------------
+
+To Day Objectives:
+------------------
+
+1.Options Menu
+
+2.Contextual Menu
+
+3.Popup menu
+
+Menu:
+----
+Menu is collection of items.which can be display the items in the Appbar.
+
+
+Options Menu:
+------------
+
+Diff between Explicit intent and OptionsMenu
+
+explicit:-navigation between one activity to another activity with in same 
+
+application
+
+
+Options Menu:we can navigate one screen to corresponding activity.
+
+
+Seetings -------settting activivity----- titles
+
+Whatsup web------whatsup web activity
+
+search----------- serach activity
+
+
+steps to implement the options Menu:
+-----------------------------------
+
+1.create an menu directory in resource folder.
+
+res:
+menu
+
+2.create an menu resourse xml file
+res:
+menu
+
+option_menu
+
+   
+<menu>
+
+ <item
+android:title="settings"
+android:id="@+id/m1"/>
+
+
+</menu>
+
+
+3.implement the menu at MainActivity with the help of
+
+OncreateOptionsmenu() method
+
+
+//get the menu xml file with oncreateoptions_menu
+
+R.color.primary
+
+R.string.name
+
+R.mipmap.imagename
+
+R.id.idname
+
+getmenuInflater.inflate(R.menu.option_menu,menu)
+
+
+
+4.Handling the onclick evenets respective menu.
+
+
+
+ContextMenu:
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
