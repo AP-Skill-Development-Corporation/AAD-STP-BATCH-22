@@ -1,6 +1,7 @@
 package com.asklepius.tabactivity;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -23,6 +24,7 @@ ViewPager page;
         tb=findViewById(R.id.tab_activity);
         page=findViewById(R.id.view_page);
         page.setAdapter(new PageAdapter(getSupportFragmentManager()));
+        tb.setupWithViewPager(page);
 
     }
     public class PageAdapter extends FragmentStatePagerAdapter{
@@ -51,6 +53,21 @@ ViewPager page;
         public int getCount() {
             return 4;
         }
-    }
 
+        @Nullable
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position){
+                case 0:
+                    return "Android";
+                case 1:
+                    return "Java";
+                case 2:
+                    return "Flutter";
+                case 3:
+                    return "Python";
+            }
+            return super.getPageTitle(position);
+        }
+    }
 }
