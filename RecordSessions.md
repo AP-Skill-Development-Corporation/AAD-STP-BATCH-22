@@ -10,3 +10,6 @@
 
 # Day6 Video Link :https://transcripts.gotomeeting.com/#/s/0b2895e0400feb4885d93f13ba7b94699f65321b0fff0cc9fd77def025362e7
 # Day7 Video Link :https://transcripts.gotomeeting.com/#/s/44381a168de32da9cf808a2e433249d088751289b6844154cbf4b2fe3ba1826c
+# Day8 Video Link :https://transcripts.gotomeeting.com/#/s/7286b56e5548ff7198bb194eee1b9468068bd929d8e695071a01a2498a6dccfa
+# Day9 Video Link :https://transcripts.gotomeeting.com/#/s/da210d1be6852741a32b56bf1b73a1caab896f4ae96542ba3cfbb2d2cd1183c6
+# Day10 Video Link :https://transcripts.gotomeeting.com/#/s/d597386421a2bf04d7b7d61fed17f81830e8fe54cfc6ad0bfa735be32914c0ab
