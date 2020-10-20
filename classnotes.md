@@ -240,10 +240,7 @@ getmenuInflater.inflate(R.menu.option_menu,menu)
 4.Handling the onclick evenets respective menu.
 
 
-
-ContextMenu:
------------
-
+# Notification
 
 
 
