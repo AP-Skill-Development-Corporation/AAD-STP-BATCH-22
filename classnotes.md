@@ -243,6 +243,110 @@ getmenuInflater.inflate(R.menu.option_menu,menu)
 # Notification
 
 
+Recyclerview:
+--------------
+A recyclerview is scrollable containers
+
+from a large number of dataset.
+
+before using recyclerview listview
+
+Recyclerview Dependency
+
+
+1.Data
+
+Drawable:
+a
+b
+c
+
+int[] imgages={R.drwable.a,R.drwable.b};
+
+String[] names={"Gopal","Vamsi"};
+
+names.length();
+
+String[] desig={"MCA;MTECH"}
+
+2.setlayout manager
+
+3.Adapter
+
+4.layout_file
+
+Notification In Android:
+------------------------
+
+def:
+---
+A notification is a message which 
+
+display the notification in out side 
+
+of an Ui.
+
+Two classes requires:
+--------------------
+
+1.NotificationCompact.Builder()
+
+id
+
+title
+
+message
+
+icon
+
+image
+
+priority
+
+addaction
+
+NotificationCompact.Builder builder=
+
+new NotificationCompact.Builder(this,"gopal_id");
+
+builder.seContentTitle("APSSDC");
+
+builder.setMesaage("APSSDC ANDROID-WORKSHOP")
+
+builder.seTIcon(R.drwable.image);
+
+
+2.NotificationManager
+
+NotificationManager manager;
+
+manager=getsystemService(NotificationService);
+
+manager.notify(1,builder.build())
+
+we have to run the application above
+
+orio version we need crete NotificationChannel
+
+
+if(Build.VERSION.SDK_INT>=Build.VERSIONCODES.O)
+{
+
+NotificationChannel channel=new NotificationChannel
+
+("gopal_id","android_channel",NotificationChannel.DEFAULT);
+
+manager.createNotificationChannel(channel);
+}
+
+
+
+
+
+
+
+
+
 
 
 
