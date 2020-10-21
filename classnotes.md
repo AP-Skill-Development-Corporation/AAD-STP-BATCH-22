@@ -339,6 +339,87 @@ NotificationChannel channel=new NotificationChannel
 manager.createNotificationChannel(channel);
 }
 
+10-21-2020
+-----------
+
+
+Day-Objectives:
+--------------
+
+a.Services
+
+b.BroadCastRecivers
+
+A.service:
+----------
+A service is a long running background
+
+operation with out an user interaction.
+
+example:
+-------
+Music player.
+
+BroadCastRecivers:
+------------------
+
+def:
+----
+A BroadCastReciver is a Application
+
+compopnents.
+
+AND TO recieve the system announcements
+
+interaction with the user.
+
+EXAMPLE:
+-------
+
+SYSTEM BROADCAST: PRE DEFINED
+-----------------
+POWER_CONNTECTED
+
+POWER_DIS CONNTECTED
+
+AIR_PLANE MODE CHANGED
+
+BATTERY_LOW--12% PERCENTAGE
+
+SYSTEM_UPDATE
+
+HEADPHONE_PLUGIIN
+
+CUSTOM BROADCAST:
+----------------
+
+
+diff between Activity Services BroadCastReciver
+------------------------------------------------
+
+Activity                 service                 broadcast
+
+oncreate()               onbind()                onrecieve()
+
+startActivity(intent obj) startservice(intent obj) sendbroadcast()
+                          stopservice(intent obj)  
+                          oncreate()
+						  onstartCommand()
+						  ondestroy()
+
+res:
+
+Drawable:
+a.png
+menu:
+options_menu
+context_menu
+raw:
+song.mp3
+
+
+
+
 
 
 
